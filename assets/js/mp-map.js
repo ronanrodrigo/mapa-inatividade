@@ -6,7 +6,7 @@ var map = L.map( 'map', {
   zoom: 4
 });
 
-L.tileLayer( 'http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+L.tileLayer( 'http://otile1.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="http://osm.org/copyright" title="OpenStreetMap" target="_blank">OpenStreetMap</a> contributors | Tiles Courtesy of <a href="http://www.mapquest.com/" title="MapQuest" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png" width="16" height="16">',
 }).addTo(map);
 
